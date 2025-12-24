@@ -1,9 +1,15 @@
 # huggingface-gemini-business2API
 huggingface部署gemini-business2API每日只需打开复制粘贴API Key到客户端使用，无需重复部署。
+具体步骤：
+
 Create a new Space选择docker，上传4个文件docker-compose.yml、requirements.txt、main.py、Dockerfile部署就行
+
 无需添加变量
+
 用油猴脚本一键获取API Key
+
 油猴脚本如下：
+
 // ==UserScript==
 // @name         Gemini Business 2API Helper (v1.2 Ultimate)
 // @namespace    https://linux.do/u/f-droid
